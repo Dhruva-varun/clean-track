@@ -1,0 +1,32 @@
+.dashboard-container {
+    margin: 20px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .section li {
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .section button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .section button:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,53 @@
+.dashboard-container {
+    margin: 20px;
+  }
+  
+  .section {
+    margin: 20px;
+    padding: 12px;
+    background-color: #ebecde;
+    border: 1px solid #c379ef;
+    border-radius: 20px;
+    padding-top: 0px;
+  }
+  
+  .section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .section button {
+    padding: 10px;
+    border: none;
+    background-color: #6424fb;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .section button:hover {
+    background-color: #44029a;
+  }
+  
+  .section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .section li {
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .section li button {
+    padding: 5;
+    margin: 0px;
+  }  
